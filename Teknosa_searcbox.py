@@ -2,9 +2,10 @@ import bs4
 from urllib.request import urlopen as uReq 
 from bs4 import BeautifulSoup as soup 
 import ctypes 
+import re
 
 def insert_dash(string,index,input):
-	return string[:index] + input + string[index:]
+	return string[:index] + "+" + input + "+" + string[index:]
 
 
 
@@ -20,8 +21,10 @@ class Product(object):
 Products = []
 
 url = input("Search:")
+url = (re.sub("[ ]","+",url))
+print(url)
 
-my_url = "https://www.teknosa.com/arama?q=Bilgisayar%3Aprice-asc%3Acategory%3A102%3Acategory%3A10201&page=0"
+my_url = "https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101&text=#"
 
 my_url = insert_dash(my_url,32,url)
 
