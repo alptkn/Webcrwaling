@@ -9,12 +9,12 @@ def insert_dash(string,index,input):
 
 class Product(object):
 
-	def __init__(self,attr,price,link,img):
+	def __init__(self,attr,price,link,img,price_int):
 		self.attr = attr
 		self.price = price
 		self.link = link
 		self.image = img 
-
+		self.price_int = price_int
 
 
 Products = []
@@ -43,9 +43,10 @@ container = page_soup.findAll("div",{"class" : "sg-col-4-of-24 sg-col-4-of-12 sg
 lenght = len(container)
 for i in range (0,lenght-2):
 	
-	contain = container[i].find("span",{"class" : "rush-component"})
+	contain = container[i].find("span",{"data-component-type" : "s-product-image"})
 
 	link = contain.a["href"]
+	#print(link)
 	
 
 	contain = container[i].find("div",{"class" : "a-section aok-relative s-image-square-aspect"})
@@ -54,12 +55,26 @@ for i in range (0,lenght-2):
 	
 
 	contain = container[i].find("span",{"class" : "a-size-base-plus a-color-base a-text-normal"})
-	attr = contain
+	attr = contain.text
 	
+	if container[i].find("span",{"class" : "a-price-whole"}):
+		price = container[i].find("span",{"class" : "a-price-whole"}).text
+		price_new = price.replace(",","")
+		price_int = price_new.replace(".","")
+	#price_new = price_new(".","")
+	else:
+		contain = container[i].find("div",{"class" : "a-row a-size-base a-color-secondary"})
+		price = contain.find("span",{"class" : "a-color-base"}).text
+		price = price[1:]
+		new_price = price.split(",")[0]
+		price_int = new_price.replace(".","")
 
-	price = container[i].find("span",{"class" : "a-price-whole"})
 
-	Products.append(Product(attr.text,price.text,link,img))
+	Products.append(Product(attr,price,link,img,int(price_int)))
+	print(Products[i].attr)
+	print(Products[i].price)
+	print(Products[i].link)
+	print(Products[i].image)
+	print(Products[i].price_int)
+		
 	
-	print(Products[i].attr)	
-	print("***********************************************************************") 
