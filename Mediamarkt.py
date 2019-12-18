@@ -75,6 +75,7 @@ for i in range (0,lenght):
 	if j == len(price_contain)-1:
 		break
 	j = j + 2
+#https://www.mediamarkt.com.tr/tr/search.html?query=asus&searchProfile=onlineshop&channel=mmtrtr&searchParams=%2FSearch.ff%3Fquery%3Dasus%2Bnotebook%26filterCategoriesROOT%3DBilgisayar%25C2%25A7MediaTRtrc504925%26channel%3Dmmtrtr
 
 
 
