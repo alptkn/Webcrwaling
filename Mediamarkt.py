@@ -71,9 +71,7 @@ for i in range (0,lenght):
 	print(attr)
 	sub = price_contain[j].text
 	price = find_between(sub,'price":"','","brand')
-	print("******************************************************")
 	print(price)
-	print("******************************************************")
 	if j == len(price_contain)-1:
 		break
 	j = j + 2
