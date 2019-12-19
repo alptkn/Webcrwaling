@@ -33,29 +33,27 @@ uClient.close()
 
 page_soup = soup(page_html,"html.parser")
 
-container = page_soup.findAll("li",{"class" : "column"})
+container = page_soup.findAll("div",{"class" : "listView"})
 
 
 lenght = len(container)
 
 print(lenght)
 	
-for i in range (5,lenght):
-	contain = container[i].find("div",{"class" : "pro"})
-	link = contain.a["href"]
+for i in range (0,lenght):
+	contain = container[i].li
+	temp = contain.find("div",{"class" : "pro"})
+	link = temp.a["href"]
+	print(link) 
 
+	temp = contain.find("a",{"class" : "plink"})
+	attr = temp.img["alt"]
+	img = temp.img["src"]
 
-	print(link)
-
-	contain = container[i].find("a",{"class" : "plink"})
-	img = contain.img
-	attr = contain.img["alt"]
-	print(img)
-	print(attr)
-
-	contain = container[i].find("div",{"class" : "proDetail"})
+	contain = container[i].find("div",{"class" : "proDetail"} )
 	price = contain.ins.text
 	price = re.sub(r"\s+",'',price)
 	price_new = price.split(",")[0]
 	price_int = price_new.replace(".","")
 	print(price)
+
