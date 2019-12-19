@@ -18,11 +18,10 @@ Ram = {"4gb" : "%3ACLS-1047-RAM%3A4GB",
 	   "16gb": "%3ACLS-1047-RAM%3A16GB"}
 
 
-Processor = {"intel i5 8th generation" : "%3ACLS-1184-İşlemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi5", 
-			 "intel i7 8th generation" : "%3ACLS-1184-İşlemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7",
-			 "intel i3 5th generation" : "%3ACLS-1184-İşlemci+ailesi%3A9.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7",
-			 "intel i7 9th generation" : "%3ACLS-1184-İşlemci+ailesi%3A9.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7",
-			 "amd ryzen(5)"		 	   : "%3ACLS-1184-İşlemci+ailesi%3AAMD%2BRyzen%2B5"}
+Processor = {"intel i5"     : "%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi5%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A10.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi5%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A5.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi5" , 
+			 "intel i7"     : "%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A9.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A10.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7",
+			 "intel i3"     : "%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A5.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi3",
+			 "amd ryzen(5)" : "%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3AAMD%2BRyzen%2B5"}
 
 
 OS = {"Windows 10 Home" : "%3Aisletim-sistemi-yazilimi-cls-1095%3AWindows%2B10%2BHome%2B",
@@ -43,13 +42,9 @@ GPU = {"not include in"          :"%3ACLS-1163-Grafik%3AMevcut%2Bde%25C4%259Fil"
 
 
 
-HDD = {"SSD"       : "%3ACLS-1047-Depolama+ortamı%3ASSD",
-	   "HDD"       : "%3ACLS-1047-Depolama+ortamı%3AHDD",
-	   "HDD + SDD" : "%3ACLS-1047-Depolama+ortamı%3AHDD%252BSSD"}
-
-
-
-
+HDD = {"SSD"       : "%3ACLS-1047-Depolama+ortam%C4%B1%3ASSD",
+	   "HDD"       : "%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD",
+	   "HDD + SDD" : "%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD%252BSSD"}
 
 
 
