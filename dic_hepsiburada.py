@@ -37,4 +37,5 @@ HDD = {"HDD"  : "?filtreler=ssdkapasitesi:128%E2%82%AC20GB,256%E2%82%AC20GB,512%
 	   "SSD"  : "?filtreler=harddiskkapasitesi1:1%E2%82%AC20TB"}
 
 #yourstring = yourstring.encode('ascii', 'ignore').decode('ascii')
+#https://www.hepsiburada.com/laptop-notebook-dizustu-bilgisayarlar-c-98?filtreler=VariantList.Ram%E2%82%AC20%E2%82%AC28Sistem%E2%82%AC20Belle%E2%82%ACC4%E2%82%AC9Fi%E2%82%AC29:16%E2%82%AC20GB
 	   
