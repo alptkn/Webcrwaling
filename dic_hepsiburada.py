@@ -35,4 +35,6 @@ Ram = {"4gb"  : "filtreler=VariantList.Ram%E2%82%AC20%E2%82%AC28Sistem%E2%82%AC2
 
 HDD = {"HDD"  : "?filtreler=ssdkapasitesi:128%E2%82%AC20GB,256%E2%82%AC20GB,512%E2%82%AC20GB",
 	   "SSD"  : "?filtreler=harddiskkapasitesi1:1%E2%82%AC20TB"}
+
+#yourstring = yourstring.encode('ascii', 'ignore').decode('ascii')
 	   
