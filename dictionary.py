@@ -48,3 +48,15 @@ HDD = {"SSD"       : "%3ACLS-1047-Depolama+ortam%C4%B1%3ASSD",
 
 
 
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A5.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi5%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A9.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A10.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1184-lemci+ailesi%3A9.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-lemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-lemci+ailesi%3A10.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A9.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A8.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3A10.%2Bnesil%2BIntel%25C2%25AE%2BCore%25E2%2584%25A2%2Bi7&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1184-lemci+ailesi%3AAMD%2BRyzen%2B5&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1184-%C4%B0%C5%9Flemci+ailesi%3AAMD%2BRyzen%2B5&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1047-Depolama+ortam%C4%B1%3ASSD&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD%252BSSD&text=#
+	   #https://www.teknosa.com/arama?q=%3Arelevance%3Acategory%3A1020101%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD%252BSSD%3ACLS-1047-Depolama+ortam%C4%B1%3AHDD%3ACLS-1047-Depolama+ortam%C4%B1%3ASSD&text=#
+

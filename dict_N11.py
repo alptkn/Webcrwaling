@@ -26,4 +26,10 @@ https://www.n11.com/bilgisayar/dizustu-bilgisayar?sistembellegigb=8+Gb-4+Gb&isle
 
 
 
+CPU = {"intel i7" : "?islemci=Intel+Core+%C4%B07",
+	   "intel i5" : "?m=Acer&islemci=Intel+Core+%C4%B05",
+	   "intel i3" :"?islemci=Intel+Core+%C4%B03"}
 
+Ram = {"4gb"  : "?sistembellegigb=4+Gb",
+	   "8gb"  : "?sistembellegigb=8+Gb",
+	   "16gb" : "?sistembellegigb=16+Gb"}	   
